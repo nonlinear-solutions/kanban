@@ -111,4 +111,6 @@ defmodule KanbanWeb do
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])
   end
+
+  @unused_attr ""
 end
