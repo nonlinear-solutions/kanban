@@ -96,3 +96,7 @@ npm-debug.log
 /installer/tmp
 /installer/doc
 /installer/deps
+
+## DIALYZER PLT FILES ##
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
